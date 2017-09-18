@@ -1,1 +1,22 @@
 # Empty CSS file for your own CSS
+<style type="text/css">
+            *{ /*Formata todos os elementos da página*/
+                padding:0px; /*espaço entre a borda e o conteúdo do elemento*/
+                margin:0px; /*espaço entre a borda e os elementos externos*/
+            }
+            #topo{
+                width: 100%; /*largura*/
+                height: 120px; /*altura*/
+                text-align: center; /*alinhamento do texto*/
+            }
+            #meio{
+                width: 100%; /*largura*/
+                text-align: center; /*alinhamento do texto*/
+                height: 80%;; /*altura*/
+            }
+            #rodape{
+                clear: both; /*não permite elementos flutuantes ao lado*/
+                text-align: left; /*alinhamento do texto*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                background-color: #4A708B; /*cor de fundo*/
+            }
